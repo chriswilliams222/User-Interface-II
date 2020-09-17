@@ -45,40 +45,38 @@ table {
 
 
 body{
-    padding:10em;
     background-image: url(https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&h=1350&w=2500);
 }
 *{
     box-sizing: border-box;
 }
 html{
-    font-size:62.5%;
-    background:lightslategrey;
+    font-size:62.5%;    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 header{
     margin:3rem;
-    font-size:4rem;
+    font-size:4vh;
     font-weight:bold;
+    min-width: 250px;
 }
 header:hover{
     text-decoration:underline;
 }
 nav a{
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    font-size:2rem;
+    flex-flow:row;
+    justify-content:space-between;
+    font-size:2vh;
     text-decoration:none;
     background: aqua;
-    
     color:black;
-    margin:1em;
-    padding:1rem;
+    margin:1vh;
+    padding:1vh;
 }
 nav a:hover{
     font-weight:bolder;
-        height: 250px;
-        width: 250px;
+        height: 1rem;
+        width: 2rem;
         margin: 0 auto;
         background-color:aqua;
         animation-name: round;
@@ -121,11 +119,11 @@ nav a:hover{
 
 #projects{
     display:flex;
-    margin:.5em;
+    margin:.5vh;
     background:grey;
-    padding:5em;
+    padding:5vh;
     justify-content: space-between;
-    font-size:2em;
+    font-size:2vh;
 
 
 
